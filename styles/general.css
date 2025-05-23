@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'yekan';
+  
+}
+body{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content:center;
+
+
+}
+@font-face {
+    font-family: 'yekan';
+    src: url(../fonts/YekanBakh-Regular.woff2)
+    /* (./fonts/YekanBakh-Bold.woff2),(./fonts/YekanBakh-Black.woff2),(./fonts/YekanBakh-SemiBold.woff2), */
+}
+@font-face {
+    font-family: abar;
+    src: url(./fonts/AbarLow-Regular.woff);
+    src: url(./fonts/AbarLow-Bold.woff);
+    src: url(./fonts/AbarLow-Black.woff);
+    src: url(./fonts/AbarLow-ExtraBold.woff);
+    src: url(./fonts/AbarLow-SemiBold.woff);
+}
+

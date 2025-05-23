@@ -1,0 +1,136 @@
+   
+   .main{
+        margin: 84px 350px 40px 80px; 
+        width:744px;
+
+    
+    }
+    .top-text-main :first-child{
+        font-size: 20px;
+        font-weight: 800;
+ 
+    }
+    .top-text-main :last-child{
+        font-size: 14px;
+        color: rgba(105, 105, 105, 1);
+        line-height: 31px;
+    }
+    .addtask-main{
+        display: flex;
+        margin-top: 21px;
+        padding: 16px;
+        padding-left: 0px;
+        align-items: center;
+        border: 1px dashed rgba(204, 204, 204, 1);
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        color: rgba(0, 123, 255, 1);
+        gap: 8px;
+        cursor: pointer;
+        
+    }
+    .addtask-main :first-child{
+        margin-top: 2px;
+    
+    } 
+    .mid-img-main{
+        margin-top: 52px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mid-img-main img{
+        width: 283px;
+        height: 232px;
+    }
+    .mid-textbottom-img{
+        margin-top: 24px;
+        text-align: center;
+    }
+    .mid-textbottom-img :first-child{
+        color: rgba(125, 125, 127, 1);
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .mid-textbottom-img :last-child{
+        color: rgba(175, 174, 178, 1);
+        font-size: 14px;
+        
+    }
+    .bottom-task-main .task-text :first-child{
+        margin-top: 52px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .bottom-task-main .task-text :last-child{
+        font-size: 14px;
+        color: rgba(105, 105, 105, 1);
+        
+    }
+    .boxtask-bottom{
+        margin-top: 16px;
+        padding: 24px 16px;
+        border: 1px solid rgba(233, 233, 233, 1);
+        border-radius: 12px;
+        display: flex;
+        gap: 16px;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+
+    }
+    .text-box{
+        display: flex;
+        gap: 16px;
+        color: rgba(50, 50, 51, 1);
+
+    }
+    .title-and-des{
+        display: flex;
+        flex-direction: column;
+    }
+    .title-and-des :first-child{
+        font-weight: bold;
+    }
+    .title-and-des :last-child{
+        color: rgb(120, 120, 120);
+    }
+
+    .check-box {
+        margin-top: 2px;
+        width: 16px;
+        height: 16px;
+        position: relative;
+        cursor: pointer;
+        border: 1px solid rgba(204, 204, 204, 1);
+        border-radius: 5px;
+    }
+
+    .color-box{
+        width: 4px;
+        height: 50px;
+        border-radius: 40px;
+        position: absolute;
+        right: -1px;
+
+    }
+
+    .recycleBin-svg{
+        position: absolute;
+        left: 30px;
+        top: 25px;
+        border: 1px solid rgba(204, 204, 204, 1);
+        border-radius: 8px;
+        padding: 2px 5px;
+ 
+        
+   
+    }
+    .recycleBin-svg svg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }

@@ -1,0 +1,23 @@
+.box-done{
+    text-decoration: line-through;
+    background-color: rgb(247, 247, 247);
+}
+.check-done{  
+    margin-top: 5px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid rgba(204, 204, 204, 1);
+    border-radius: 5px;
+    background-color: rgba(0, 123, 255, 1);
+  
+    
+}
+.check-done::after{
+    content: '✔';
+    color: white;
+    position: absolute;
+    top: -3px;
+    left: 2px;
+}
